@@ -50,22 +50,23 @@ and open the template in the editor.
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
-                  <img class="d-block w-100" src="img/main.jpg" alt="First slide">
+                  <img class="d-block w-100 img-fluid" src="img/main1.jpg" alt="First slide">
                   <div class="carousel-caption">
-                <h1>Poznane technologie !</h1>
-              </div>
-              </div>
-              <div class="carousel-item">
-                  <img class="d-block w-100" src="img/bootstrap1.png" alt="Second slide">
+                    <h1>Poznane technologie !</h1>
+                    <a href="#about"><button type="button" class="btn btn-outline-light btn-lg">Start</button></a>
+                  </div>
               </div>
               <div class="carousel-item">
-                  <img class="d-block w-100" src="img/css3.jpg" alt="Third slide">
+                  <img class="d-block w-100 img-fluid" src="img/bootstrap1.png" alt="Second slide">
               </div>
-                <div class="carousel-item">
+              <div class="carousel-item">
+                  <img class="d-block w-100 img-fluid" src="img/css.jpg" alt="Third slide">
+              </div>
+                <div class="carousel-item img-fluid">
                   <img class="d-block w-100" src="img/html5.jpg" alt="Fourth slide">
               </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="img/symfony.png" alt="Fifth slide">
+                <div class="carousel-item img-fluid">
+                    <img class="d-block w-100" src="img/sf.jpg" alt="Fifth slide">
               </div>
             </div>
 <!--            buttons-->
@@ -77,7 +78,7 @@ and open the template in the editor.
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="sr-only">Next</span>
             </a>
-            </div>
+        </div>
 
 <!--end carousel-->
 
