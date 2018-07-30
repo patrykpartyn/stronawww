@@ -7,6 +7,7 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
@@ -23,13 +24,13 @@ and open the template in the editor.
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
+        <div class="collapse navbar-collapse pull-right" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home</a>
+                    <a class="nav-link" href="#">Start</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#about">About me</a>
+                    <a class="nav-link" href="#about">O mnie</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#fotoTekst">Hobby</a>
@@ -38,7 +39,7 @@ and open the template in the editor.
                     <a class="nav-link" href="#projects">Wykonane projekty</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#footer">Contact</a>
+                    <a class="nav-link" href="#footer">Kontakt</a>
                 </li>
             </ul>
         </div>
@@ -138,19 +139,22 @@ and open the template in the editor.
 <div id="fotoTekst">
     <div class="container-fluid text-center">
         <div class="row">
-            <div class="col-md-4">
-                <img src="img/ball.jpeg">
+            <div class="col-lg-12 col-xl-4">
+<!--<div class="col-xl-4">-->
+                <img src="img/ball.jpeg" class="img-fluid">
             </div>
-            <div class="col-md-4">
+            <div class="col-lg-12 col-xl-4">
+<!--<div class="col-xl-4">-->
                 <h3>Programowanie i nie tylko</h3>
                 <p>Programowanie na studich bardzo mi się spodobało co spowodowało,że nie tylko na zajęciach zajmowałem się kodowaniem.
-                Również swój wolny czas poświęcam na zdobywanie nowej widzy, a także poznawanie nowych technologii, która pozwala mi się rozwijać.
+                Również swój wolny czas poświęcam na zdobywanie nowej widzy, a także poznawanie nowych technologii, które pozwalają mi się rozwijać.
                 W wolnym czasie jestem aktywny fizycznie, kocham chodzić po górach, jeździć na rowerze, a moją niespełnioną pasją jest piłka nożna
-                w którą gram bardzo często. Nie są dla mnie przeszkodą nawet nocne turnieje rozgrywane w Stanach Zjednoczonych Ameryki gdzie mecze 
+                w którą gram bardzo często. Nie są dla mnie przeszkodą nawet nocne turnieje rozgrywane w Stanach Zjednoczonych Ameryki, gdzie mecze 
                 odbywają się w środku nocy. </p>
             </div>
-            <div class="col-md-4">
-                <img src="img/photo.jpg">
+            <div class="col-lg-12 col-xl-4">
+<!--<div class="col-xl-4">-->
+<img src="img/photo.jpg" class="img-fluid">
             </div>
         </div>
         
@@ -165,7 +169,7 @@ and open the template in the editor.
         <h3>Dotychczas wykonane projekty</h3>
         <hr>
         <div class="row">           
-            <div class="col-md-6">
+            <div class="col-xl-6">
                 <h3>Zrealizowane prace:</h3>
                 
                     <p>Organizer wydatków w JAVA
@@ -182,8 +186,8 @@ and open the template in the editor.
                 </div>
                 
             </div>
-            <div class="col-md-6">
-                <img src="img/project.jpg" >
+            <div class="col-xl-6">
+                <img src="img/project.jpg" class="img-fluid" >
             </div>
         </div>
     </div>
@@ -200,7 +204,7 @@ and open the template in the editor.
                 <img src="img/photo.jpg">
             </div>
              <div class="col-md-4">
-                 <h4>Contact</h4>
+                 <h4>Kontakt</h4>
                  <hr>
                  <p><i class="fas fa-envelope"></i> patryk.partyn@gmail.com</p>
                  <p><i class="fas fa-phone"></i> Phone: 500-087-069 </p>
@@ -210,7 +214,7 @@ and open the template in the editor.
                 
             </div>
              <div class="col-md-4">
-                 <h4>Social media</h4>
+                 <h4>Media społecznościowe</h4>
                  <hr>
                     <a href="#"><i class="fab fa-facebook"></i></a>
                     <a href="#"><i class="fab fa-twitter"></i></a>
